@@ -5,5 +5,7 @@ github_repo: bufbuild/buf
 artifact_format: tar.gz
 description: "The best way of working with Protocol Buffers."
 license: Apache-2.0
+# buf tar contains buf/bin/buf nested, needs bundle handling
+bundle: true
 
 # Build for all Debian suites and all supported architectures.
