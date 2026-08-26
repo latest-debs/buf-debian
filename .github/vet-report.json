@@ -1,0 +1,49 @@
+{
+  "gate": "pass",
+  "license": {
+    "declared": "Apache-2.0",
+    "detected": [
+      "Apache-2.0"
+    ],
+    "license_files": [
+      "//tmp/tmp.xpzDYdG03m/x/buf/LICENSE"
+    ],
+    "matches": true,
+    "status": "pass",
+    "detail": "declared Apache-2.0 matches detected Apache-2.0"
+  },
+  "asset": {
+    "format": "tar.gz",
+    "size": 34174095,
+    "valid": true,
+    "is_html": false,
+    "binary": "buf",
+    "elf_arch": "ARM aarch64",
+    "status": "pass",
+    "detail": "valid tar.gz archive containing 3 ELF executable(s); first: buf (ARM aarch64); release covers: amd64 arm64 armhf ppc64el s390x riscv64 "
+  },
+  "architectures": {
+    "covered": [
+      "amd64",
+      "arm64",
+      "armhf",
+      "ppc64el",
+      "s390x",
+      "riscv64"
+    ],
+    "missing": [
+      "armel",
+      "i386",
+      "loong64"
+    ],
+    "assets": {
+      "amd64": "buf-Linux-x86_64.tar.gz",
+      "arm64": "buf-Linux-aarch64.tar.gz",
+      "armhf": "buf-Linux-armv7.tar.gz",
+      "ppc64el": "buf-Linux-ppc64le.tar.gz",
+      "s390x": "buf-Linux-s390x.tar.gz",
+      "riscv64": "buf-Linux-riscv64.tar.gz"
+    }
+  },
+  "vetted_at": "2026-08-26T04:33:06Z"
+}

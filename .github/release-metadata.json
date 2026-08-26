@@ -1,0 +1,43 @@
+{
+  "package": "buf",
+  "upstream_repo": "bufbuild/buf",
+  "version": "v1.72.0",
+  "tag": "v1.72.0",
+  "published_at": "2026-07-17T20:15:07Z",
+  "license": "Apache-2.0",
+  "asset": "buf-Linux-aarch64.tar.gz",
+  "asset_size": 34174095,
+  "sha256": "7641bd7e06a37a54cbb8c789f53465899def96196ab5c08057432f781a15d517",
+  "expected_sha256": "7641bd7e06a37a54cbb8c789f53465899def96196ab5c08057432f781a15d517",
+  "checksum_source": "sha256.txt",
+  "checksum_verified": true,
+  "assets": {
+    "buf-Linux-s390x.tar.gz": {
+      "sha256": "55ece92efe885a20d3cf938231a89bc52bd71e03e080f162201a25ade9edbfbc",
+      "size": 36184317
+    },
+    "buf-Linux-armv7.tar.gz": {
+      "sha256": "0a071a1e3e675466d625b30305b18cd3f93154d609d863ad64d56ccd0f61616a",
+      "size": 34427898
+    },
+    "buf-Linux-ppc64le.tar.gz": {
+      "sha256": "647ac16176ade70ceed1e48a6c38ac035b43de3f5c732398aa1c9a1703c53340",
+      "size": 33262994
+    },
+    "buf-Linux-aarch64.tar.gz": {
+      "sha256": "7641bd7e06a37a54cbb8c789f53465899def96196ab5c08057432f781a15d517",
+      "size": 34174095
+    },
+    "buf-Linux-riscv64.tar.gz": {
+      "sha256": "5f25464fb7afebf1dd6f332178857688b803d83a03f82455afafae0271c88549",
+      "size": 34358245
+    },
+    "buf-Linux-x86_64.tar.gz": {
+      "sha256": "a9c6186cf6fcf062b247345e1b7b12c26f580c1b2a4bbf4d3fe080abf85ceee8",
+      "size": 37851981
+    }
+  },
+  "asset_count": 6,
+  "vetted_at": "2026-08-26T04:33:03Z",
+  "vetted_by": ""
+}
