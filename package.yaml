@@ -10,3 +10,7 @@ binary_path: "buf"
 bundle: true
 
 # Build for all Debian suites and all supported architectures.
+
+# Binaries that must not be smoke-tested with --version (not standalone CLIs).
+smoke_skip:
+  - "protoc-gen-*"
